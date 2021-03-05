@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2.Domain\TestOnionApp.Domain.Entities\TestOnionApp.Domain.Entities.csproj" />
+    <ProjectReference Include="..\..\2.Domain\TestOnionApp.Domain.Interfaces\TestOnionApp.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\..\3.Infrastructure\TestOnionApp.Infrastructure.Helpers\TestOnionApp.Infrastructure.Helpers.csproj" />
+    <ProjectReference Include="..\TestOnionApp.Application.Interfaces\TestOnionApp.Application.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
